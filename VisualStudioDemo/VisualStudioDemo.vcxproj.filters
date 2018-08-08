@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d25e1207-f0ca-46c1-967b-db9a8267906a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{547941b7-f859-4dd8-8e26-11053969f1aa}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{fcd31705-a5d7-4525-ab3b-495f360df23d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Examples">
+      <UniqueIdentifier>{52ea8e1e-f38b-4add-9ba8-b5e73a85cca4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTreeWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomEditCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DockableStartPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileViewBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GotoLineDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WatchBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlOutlineParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="res\Examples\example.cpp">
+      <Filter>Resource Files\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNewDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VSItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualStudioDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualStudioDemoDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualStudioDemoView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAboutDIalog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTreeWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomEditCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DockableStartPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileViewBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GotoLineDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WatchBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlOutlineParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNewDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VSItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualStudioDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualStudioDemoDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualStudioDemoView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAboutDIalog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BCGPVisualStudioGUIDemo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BCGPVisualStudioGUIDemo.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BCGPVisualStudioGUIDemoDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\break.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\build.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cpp.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\current.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\intellisense.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\intellisense_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_bar.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_bar_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_bar.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_bar_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\resource_view.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\resource_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\resource_view_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\resource_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\solution_bar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\start_hc.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbox.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbox_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tools_page1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tools_page2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\tools_page3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\web.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="xptheme.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Examples\bcgpedit-cpp.xml">
+      <Filter>Resource Files\Examples</Filter>
+    </None>
+    <None Include="res\Examples\bcgpedit-web.xml">
+      <Filter>Resource Files\Examples</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="res\examples\example.asm" />
+    <None Include="res\examples\example.bas" />
+    <None Include="res\examples\example.cs" />
+    <None Include="res\examples\example.js" />
+    <None Include="res\examples\example.sql" />
+    <None Include="res\examples\example.pas" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="res\Examples\example.asp">
+      <Filter>Resource Files\Examples</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VisualStudioDemo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\class_view_2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file_view_2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\output_bar_2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\watch_bar.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\watch_bar_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\watch_bar_2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\resource_view_2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbox_2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_bar_2012.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bas.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pas.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\asm.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cs.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\js.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sql.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\xml.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view_2012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file_view_2012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\resource_view_2012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort_2012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intellisense.png" />
+    <Image Include="res\start_hc_2010.png" />
+    <Image Include="res\Toolbar_hc.png" />
+    <Image Include="res\Toolbar_2012.png" />
+    <Image Include="res\build_hc.png" />
+    <Image Include="res\build_2012.png" />
+    <Image Include="res\menuimages_hc.png" />
+    <Image Include="res\menuimages_2012.png" />
+    <Image Include="res\solution_bar_hc.png" />
+    <Image Include="res\edit_hc.png" />
+    <Image Include="res\edit_2012.png" />
+    <Image Include="res\tools_page1_hc.png" />
+    <Image Include="res\tools_page2_hc.png" />
+    <Image Include="res\tools_page3_hc.png" />
+    <Image Include="res\tools_page1_2012.png" />
+    <Image Include="res\tools_page2_2012.png" />
+    <Image Include="res\tools_page3_2012.png" />
+    <Image Include="res\start_hc_2012.png" />
+    <Image Include="res\start_hc_2012_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\examples\example.xml" />
+    <Xml Include="res\Examples\bcgpedit-bas.xml" />
+    <Xml Include="res\Examples\bcgpedit-pas.xml" />
+    <Xml Include="res\Examples\bcgpedit-asm.xml" />
+    <Xml Include="res\Examples\bcgpedit-cs.xml" />
+    <Xml Include="res\Examples\bcgpedit-js.xml" />
+    <Xml Include="res\Examples\bcgpedit-sql.xml" />
+    <Xml Include="res\Examples\bcgpedit-xml.xml" />
+  </ItemGroup>
+</Project>

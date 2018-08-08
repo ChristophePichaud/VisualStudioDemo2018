@@ -1,0 +1,86 @@
+<SETTINGS>
+<OPTIONS>
+	<WordDelimeters>" \t\n,./?LTGT;:\"'{[}]~`%^AMP*()-+=!"</WordDelimeters>
+	<SpecialDelimiters>";.{}\n"</SpecialDelimiters>
+	<IntelliSenseChars>".>:"</IntelliSenseChars>
+</OPTIONS>
+<COLOR_DATA>
+	<BLOCKS>
+		<BLOCK>
+			<Start>'</Start>
+			<Color>"darkgray"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>"</Start>
+			<End>"</End>
+			<Color>"darkblue"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>'</Start>
+			<End>'</End>
+			<Color>"darkblue"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>"LT!--"</Start>
+			<End>"--GT"</End>
+			<Color>"darkgray"</Color>
+			<WholeText>true</WholeText>
+		</BLOCK>
+	</BLOCKS>
+</COLOR_DATA>
+<OUTLINE_DATA>
+    <IgnoreOneLineBlocks>True</IgnoreOneLineBlocks>
+    <IncludeSpaceLines>True</IncludeSpaceLines>
+    <CaseSensitive>False</CaseSensitive>
+    <WholeWords>True</WholeWords>
+    <EscapeSequences>
+        <EscapeSequence>\"</EscapeSequence>
+        <EscapeSequence>\'</EscapeSequence>
+        <EscapeSequence>\\</EscapeSequence>
+    </EscapeSequences>
+    <BLOCKS>
+        <BLOCK>
+            <Start>"</Start>
+            <End>"</End>
+            <ReplaceString>""</ReplaceString>
+            <AllowNestedBlocks>False</AllowNestedBlocks>
+            <Ignore>True</Ignore>
+            <OneLine>True</OneLine>
+        </BLOCK>
+        <BLOCK>
+            <Start>'</Start>
+            <End>'</End>
+            <ReplaceString>""</ReplaceString>
+            <AllowNestedBlocks>False</AllowNestedBlocks>
+            <Ignore>True</Ignore>
+            <OneLine>True</OneLine>
+        </BLOCK>
+        <BLOCK>
+            <Start>"LT!--"</Start>
+            <End>"--GT"</End>
+            <ReplaceString>"Comment"</ReplaceString>
+            <AllowNestedBlocks>False</AllowNestedBlocks>
+            <Ignore>True</Ignore>
+		</BLOCK>
+    </BLOCKS>
+</OUTLINE_DATA>
+<HYPERLINKS>
+    <EnableHyperlinkSupport>True</EnableHyperlinkSupport>
+    <HighlightWithColor>True</HighlightWithColor>
+    <URLPrefixes>
+        <URLPrefix>http://</URLPrefix>
+        <URLPrefix>ftp://</URLPrefix>
+        <URLPrefix>mailto:</URLPrefix>
+        <URLPrefix>news://</URLPrefix>
+        <URLPrefix>file://</URLPrefix>
+        <URLPrefix>telnet://</URLPrefix>
+        <URLPrefix>gopher://</URLPrefix>
+        <URLPrefix>prospero://</URLPrefix>
+        <URLPrefix>wais://</URLPrefix>
+        <URLPrefix>nntp://</URLPrefix>
+    </URLPrefixes>
+</HYPERLINKS>
+</SETTINGS>
