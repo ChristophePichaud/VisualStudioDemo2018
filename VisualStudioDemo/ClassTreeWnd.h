@@ -46,11 +46,13 @@ public:
 	virtual ~CClassTreeWnd();
 
 	// Generated message map functions
-protected:
+public:
 	//{{AFX_MSG(CClassTreeWnd)
 	//}}AFX_MSG
 	afx_msg void OnSelchanged(NMHDR* pNMHDR, LRESULT* pResult);
+	afx_msg void OnNMDblclk(NMHDR *pNMHDR, LRESULT *pResult);
 
+protected:
 	DECLARE_MESSAGE_MAP()
 };
 

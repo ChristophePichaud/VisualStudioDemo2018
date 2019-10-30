@@ -319,6 +319,8 @@
 #define ID_EDIT_VIEWWHITESPACE          32980
 #define ID_FILE_NEWEMPTY                32981
 #define ID_FILE_NEWEMPTY32982           32982
+#define ID_FILE_OPEN_FOLDER             32983
+#define ID_FILE_CLOSE_FOLDER            32984
 
 // Next default values for new objects
 // 
@@ -326,7 +328,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        265
-#define _APS_NEXT_COMMAND_VALUE         32983
+#define _APS_NEXT_COMMAND_VALUE         32985
 #define _APS_NEXT_CONTROL_VALUE         1030
 #define _APS_NEXT_SYMED_VALUE           123
 #endif

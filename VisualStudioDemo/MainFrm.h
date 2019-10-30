@@ -156,6 +156,9 @@ protected:
 
 	BOOL CreateDockingBars ();
 	void SetDockingBarsIcons (BOOL bHiColorIcons);
+public:
+	afx_msg void OnFileOpenFolder();
+	afx_msg void OnFileCloseFolder();
 };
 
 /////////////////////////////////////////////////////////////////////////////

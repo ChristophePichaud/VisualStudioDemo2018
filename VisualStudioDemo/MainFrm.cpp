@@ -84,6 +84,8 @@ BEGIN_MESSAGE_MAP(CMainFrame, CBCGPMDIFrameWnd)
 	ON_REGISTERED_MESSAGE(BCGM_CUSTOMIZEHELP, OnHelpCustomizeToolbars)
 	ON_COMMAND(ID_TOOLBOX, OnToolBox)
 	ON_UPDATE_COMMAND_UI(IDS_CARET_POS, OnUpdateCaretPos)
+	ON_COMMAND(ID_FILE_OPEN_FOLDER, &CMainFrame::OnFileOpenFolder)
+	ON_COMMAND(ID_FILE_CLOSE_FOLDER, &CMainFrame::OnFileCloseFolder)
 END_MESSAGE_MAP()
 
 static UINT indicators[] =
@@ -104,6 +106,12 @@ CMainFrame::CMainFrame()
 
 	m_bCanCovertControlBarToMDIChild = TRUE;
 	m_bShowAppState = FALSE;
+
+	// Set Manager pointer
+	CBCGPVisualStudioGUIDemoApp * pApp = (CBCGPVisualStudioGUIDemoApp *)AfxGetApp();
+	SetManager(pApp->GetManager());
+
+	//m_bOpenFolder = false;
 
 	EnableWindowsNavigator();
 	EnableTearOffMDIChildren();
@@ -1008,3 +1016,33 @@ void CMainFrame::CloseAllDocuments()
 		}
 	}
 }
+
+
+void CMainFrame::OnFileOpenFolder()
+{
+	// TODO: Add your command handler code here
+	CFolderPickerDialog dlg;
+	if (dlg.DoModal() == IDCANCEL)
+		return;
+
+	GetManager()->ClearSolution();
+
+	CString strPath = dlg.GetFolderPath();
+
+	CFileManager::SearchDrive(_T("*.*"), strPath, true, false, m_wndFileView._hSrc);
+	m_wndFileView.m_wndFileView.Expand(m_wndFileView._hSrc, TVE_EXPAND);
+
+	//m_bOpenFolder = true;
+}
+
+
+void CMainFrame::OnFileCloseFolder()
+{
+	// TODO: Add your command handler code here
+	// TODO: Add your command handler code here
+	this->OnFileCloseSolution();
+	this->CloseAllDocuments();
+
+	//m_bOpenFolder = false;
+}
+

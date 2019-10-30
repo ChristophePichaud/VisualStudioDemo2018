@@ -30,7 +30,7 @@
     <ProjectGuid>{F2A0E7A3-94A6-46B1-A3A8-59BA5DDE46E8}</ProjectGuid>
     <RootNamespace>BCGPVisualStudioGUIDemo</RootNamespace>
     <Keyword>MFCProj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
     <ProjectName>VisualStudioDemo2018</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
